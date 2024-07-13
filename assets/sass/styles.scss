@@ -1,0 +1,16 @@
+$primary-color: #000;
+$font-family-base: 'Montserrat', sans-serif;
+
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  font-family: $font-family-base;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 20px;
+}

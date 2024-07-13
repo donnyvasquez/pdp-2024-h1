@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instalación de DDEV en Windows</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/softwareone-logo-blk.svg" alt="Logo" width="30" height="24">
+        Guía Drupal 10
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="ddev-windows.html">DDEV en Windows</a></li>
+          <li class="nav-item"><a class="nav-link" href="ddev-mac.html">DDEV en Mac</a></li>
+          <li class="nav-item"><a class="nav-link" href="composer.html">Composer</a></li>
+          <li class="nav-item"><a class="nav-link" href="drush.html">Drush</a></li>
+          <li class="nav-item"><a class="nav-link" href="drupal.html">Drupal</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Main content -->
+  <div class="container mt-5">
+    <h1>Instalación de DDEV en Windows</h1>
+    <p>En esta sección encontrarás los pasos para instalar DDEV en Windows.</p>
+    <h2>Requisitos previos</h2>
+    <p>Antes de comenzar, asegúrate de tener instalado lo siguiente:</p>
+    <ul>
+      <li>Docker Desktop para Windows. Puedes descargarlo desde <a href="https://www.docker.com/products/docker-desktop" target="_blank">aquí</a>.</li>
+      <li>Windows 10 Pro/Enterprise/Education con Hyper-V y Contenedores Windows habilitados.</li>
+    </ul>
+    <h2>Pasos para la instalación</h2>
+    <div class="card bg-dark text-white mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Paso 1: Descargar el instalador de DDEV</h5>
+        <p class="card-text">Descarga el instalador de DDEV para Windows desde el siguiente enlace:</p>
+        <a href="https://github.com/ddev/ddev/releases/download/v1.23.3/ddev_windows_installer.v1.23.3.exe" target="_blank" class="btn btn-primary">Descargar DDEV</a>
+      </div>
+    </div>
+    <div class="card bg-dark text-white mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Paso 2: Ejecutar el instalador</h5>
+        <p class="card-text">Ejecuta el instalador que acabas de descargar y sigue las instrucciones en pantalla para completar la instalación.</p>
+      </div>
+    </div>
+    <div class="card bg-dark text-white mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Paso 3: Verificar la instalación</h5>
+        <p class="card-text">Abre una terminal de comandos (cmd) y ejecuta el siguiente comando para verificar que DDEV se ha instalado correctamente:</p>
+        <div class="bg-dark p-3 rounded" id="code1">
+          <code>ddev --version</code>
+          <button class="btn btn-sm btn-light float-right copy-button" data-code="#code1">Copiar</button>
+        </div>
+      </div>
+    </div>
+    <h2>Documentación adicional</h2>
+    <p>Para más detalles y opciones de configuración, consulta la <a href="https://ddev.readthedocs.io/en/latest/" target="_blank">documentación oficial de DDEV</a>.</p>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Guía para un proyecto en Drupal 10 con Radix. SoftwareOne - PDP 2024 H1</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
